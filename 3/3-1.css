@@ -1,0 +1,84 @@
+html {
+    margin: 0;
+    padding: 20px 50px 150px 50px;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    border: #999 solid 1px;
+    height: 800px;
+}
+
+#bg,
+#name,
+#team_logo,
+#people,
+.people_logo,
+#introduce {
+    margin: 0;
+    padding: 20px;
+    border: #999 solid 1px;
+}
+
+#bg {
+    background: #eee;
+    height: 600px;
+}
+
+#name {
+    background: #fff;
+    width: 200px;
+    height: 120px;
+    float: left;
+    position: relative;
+}
+
+#people {
+    background: #fff;
+    width: 120px;
+    height: 550px;
+    float: right;
+}
+
+#introduce {
+    background: #fff;
+    margin: 0 180px 0 260px;
+    height: 500px;
+}
+
+#team_name {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+}
+
+#team_logo {
+    background: #eee;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.people_logo {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    background: #eee;
+    width: 80px;
+    height: 80px;
+}
+
+#people_logo2 {
+    top: 20px;
+}
+
+#people_logo3 {
+    top: 40px;
+}
+
+#people_logo4 {
+    top: 60px;
+}

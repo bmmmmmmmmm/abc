@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#top {
+    width: 100%;
+    /* height: 230px; */
+}
+
+#tittle {
+    position: relative;
+    width: 100%;
+    height: 115px;
+    background: #a3d4dc;
+    font-size: 50px;
+}
+
+#back {
+    line-height: 115px;
+    position: absolute;
+    left: 5%;
+    color: #fff;
+}
+
+#back a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#this {
+    line-height: 115px;
+    text-align: center;
+    color: #fff;
+}
+
+#menu {
+    width: 100%;
+    height: 115px;
+}
+
+#menu li {
+    width: 20%;
+    height: 115px;
+    float: left;
+    text-align: center;
+}
+
+#menu a {
+    float: left;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    height: 115px;
+    line-height: 115px;
+    font-size: 40px;
+}
+
+#menu .no_active a:hover,
+#menu .active a {
+    background: url(../11/top_li.png) repeat-x;
+}
+
+#pic_1 {
+    width: 100%;
+}
+
+#list_pic,
+#list_word,
+#columns,
+.arti,
+#fle {
+    display: flex;
+    justify-content: space-around;
+}
+
+#list_pic li {
+    float: left;
+    width: 15%;
+}
+
+#list_pic img {
+    width: 100%;
+}
+
+#list_word li {}
+
+.line_1 {
+    width: 100%;
+    height: 3px;
+    background: #dddddd;
+    margin: 20px 0;
+}
+
+.co_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 3%;
+}
+
+.co_1 img {
+    width: 100%;
+}
+
+.c {
+    font-size: large;
+}
+
+.co_2 {
+    width: 3px;
+    height: 330px;
+    background: #dddddd;
+}
+
+.line_2 {
+    width: 100%;
+    height: 20px;
+    background: #dddddd;
+    margin: 20px 0;
+}
+
+#fl {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#fl img {
+    width: 30%;
+}
+
+.pi_1 {
+    margin-top: 10px;
+}
+
+.pi_2 {
+    margin-bottom: 10px;
+}
+
+.text {
+    text-align: center;
+    width: 30%;
+    background: #eeeeee;
+    margin: 10px 0;
+    line-height: 100%;
+    font-size: 40px;
+}
+
+.arti img {
+    width: 35%;
+}
+
+.writ {
+    position: relative;
+    width: 65%;
+}
+
+.t {
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+
+.b {
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    color: #aaaaaa;
+}
+
+#fle img {
+    width: 30%;
+}
+
+#b1 {
+    color: #aaaaaa;
+}
+
+@media screen and (max-width:560px) {
+    #tittle {
+        height: 50px;
+        font-size: 20px;
+    }
+    #back,
+    #this {
+        line-height: 50px;
+    }
+    #menu,
+    #menu li {
+        height: 50px;
+    }
+    #menu a {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    #menu .no_active a:hover,
+    #menu .active a {
+        background: url(../11/top_li_2.png);
+    }
+    .co_2 {
+        height: 220px;
+    }
+    .text {
+        font-size: 20px;
+    }
+}

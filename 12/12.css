@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    text-align: left;
+    border: 1px solid #ffffff;
+}
+
+tr:nth-child(1) {
+    background: #000000;
+    color: #ffffff;
+}
+
+tr:nth-child(3),
+tr:nth-child(5),
+tr:nth-child(7),
+tr:nth-child(9),
+tr:nth-child(11) {
+    background: #bbbbbb;
+}
+
+tr:nth-child(2),
+tr:nth-child(3),
+tr:nth-child(4),
+.b {
+    color: #ff0000;
+}
+
+input {
+    position: relative;
+    left: 100px;
+    width: 100px;
+    transition: width 1s;
+    margin: 50px;
+}
+
+input:focus {
+    position: relative;
+    left: 50px;
+    width: 200px;
+}
+
+#aa {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 100px;
+}
+
+#pict {
+    position: absolute;
+    left: 0;
+    width: 600px;
+    height: 100px;
+    -webkit-animation: aa linear 5s infinite;
+}
+
+.pic {
+    position: absolute;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}
+
+#pic_1 {
+    background: #00ff00;
+}
+
+#pic_2 {
+    left: 200px;
+}
+
+#pic_2-1 {
+    height: 100px;
+    width: 100px;
+    background: #00ff00;
+}
+
+#pic_2-2 {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    height: 100px;
+    width: 100px;
+    background: #0000ff;
+}
+
+#pic_3 {
+    left: 400px;
+    background: #0000ff;
+}
+
+@-webkit-keyframes aa {
+    0% {
+        left: 0;
+    }
+    28% {
+        left: 0;
+    }
+    35% {
+        left: -200px;
+    }
+    63% {
+        left: -200px;
+    }
+    70% {
+        left: -400px;
+    }
+    98% {
+        left: -400px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.bot {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    bottom: 25px;
+    left: 120px;
+    background-color: #000000;
+    opacity: 0.5;
+    line-height: 20px;
+    text-align: center;
+}
+
+#bot_1:target {
+    left: 0;
+    -webkit-animation: .1s 1;
+}
+
+#bot_2:target {
+    left: 0;
+    -webkit-animation: .1s 1;
+}
+
+#bot_3:target {
+    left: 0;
+    -webkit-animation: .1s 1;
+}

@@ -1,0 +1,53 @@
+#bg {
+    width: 400px;
+    height: 200px;
+    background: #ccc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#r1,
+#r2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #fc0;
+    border-radius: 50px;
+}
+
+#r1 {
+    top: -50px;
+    left: -50px;
+}
+
+#r2 {
+    bottom: -50px;
+    right: -50px;
+}
+
+.fodder {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+}
+
+#r1_1 {
+    right: 50px;
+}
+
+#r1_2 {
+    bottom: 50px;
+}
+
+#r2_1 {
+    left: 50px;
+}
+
+#r2_2 {
+    top: 50px;
+}
